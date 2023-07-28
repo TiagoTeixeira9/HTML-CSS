@@ -1,0 +1,79 @@
+@charset "UTF8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c5ebd6;
+
+}
+
+header {
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to bottom ,#00E140, #00611B );
+    margin: 0px;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 0px 120px 0px 120px;
+    box-shadow: 4px 4px 9px 0px black;
+}
+
+h3 {
+    color: #1D6130;
+    text-align: left;
+}
+
+.dan-droids {
+    align-self: center;
+}
+
+.imagen-irina {
+    width: 100%;
+}
+
+.bugdroid {
+    align-self: center;
+}
+
+nav > a {
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#link {
+    text-decoration: none;
+    color: #00611B;
+    font-weight: bold;
+}
+
+.titulo-box {
+    background-color: #00611B;
+}
+
+article {
+    background-color: #8fc79f;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+footer {
+    background-color: #00611B;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+
+footer > p{
+    margin: 0px;
+}
+
+article » aside {
+    background-color: rgb(165, 165, 165)
+}
