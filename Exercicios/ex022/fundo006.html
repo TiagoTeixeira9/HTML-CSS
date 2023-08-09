@@ -6,17 +6,25 @@
     <title>Document</title>
     <style>
         body {
-            height: 100vh;
+            /*height: 100vh;
             background-image: url("imagens/wallpaper002.jpg");
             background-color: black;
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+            
+            /* Shorthand - background
+            Color > image > position > repeat > [size] > attachement
+            */
+
+            background: black url("imagens/wallpaper002.jpg") center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -26,7 +34,15 @@
 </head>
 <body>
     <main>
-        <h1>Teste de imagem de fundo</h1>
+        <h1>Fundo fixo de tela</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis vel reprehenderit quo cumque consequuntur laudantium illo, eligendi mollitia natus ad molestias hic assumenda minima animi delectus voluptate expedita consectetur dolorem!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, tempora eveniet? Rem dignissimos impedit, modi numquam hic sunt vero cum similique mollitia et a commodi consectetur autem neque error tempore?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reprehenderit rerum ut culpa, optio corporis minus consectetur obcaecati molestiae quis dignissimos cum accusantium porro amet quia tempora illum in autem.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis vel reprehenderit quo cumque consequuntur laudantium illo, eligendi mollitia natus ad molestias hic assumenda minima animi delectus voluptate expedita consectetur dolorem!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, tempora eveniet? Rem dignissimos impedit, modi numquam hic sunt vero cum similique mollitia et a commodi consectetur autem neque error tempore?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reprehenderit rerum ut culpa, optio corporis minus consectetur obcaecati molestiae quis dignissimos cum accusantium porro amet quia tempora illum in autem.
+        </p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis vel reprehenderit quo cumque consequuntur laudantium illo, eligendi mollitia natus ad molestias hic assumenda minima animi delectus voluptate expedita consectetur dolorem!
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, tempora eveniet? Rem dignissimos impedit, modi numquam hic sunt vero cum similique mollitia et a commodi consectetur autem neque error tempore?
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reprehenderit rerum ut culpa, optio corporis minus consectetur obcaecati molestiae quis dignissimos cum accusantium porro amet quia tempora illum in autem.
